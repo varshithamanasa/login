@@ -1,0 +1,83 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+ * {
+   box-sizing: border-box;
+ }
+
+
+
+ .login-container {
+   background: linear-gradient(to right, rgb(82, 132, 197), rgb(45, 45, 160));
+
+   height: 93%;
+ }
+
+ .login-form-1 {
+   background-color: rgba(255, 255, 255, 0.89);
+   padding: 5%;
+   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .login-form-1 h3 {
+   text-align: center;
+   color: rgb(0, 0, 0);
+ }
+
+ .login-form-2 {
+   padding: 5%;
+   background: #0062cc;
+   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .login-form-2 h3 {
+   text-align: center;
+   color: #fff;
+ }
+
+ .login-container form {
+   padding: 10%;
+ }
+
+ .btnSubmit {
+   width: 50%;
+   border-radius: 1rem;
+   padding: 1.5%;
+   border: none;
+   cursor: pointer;
+ }
+
+ .login-form-1 .btnSubmit {
+   font-weight: 600;
+   color: #fff;
+   background-color: #0062cc;
+ }
+
+ .login-form-2 .btnSubmit {
+   font-weight: 600;
+   color: #0062cc;
+   background-color: #fff;
+ }
+
+ .login-form-2 .ForgetPwd {
+   color: #fff;
+   font-weight: 600;
+   text-decoration: none;
+ }
+
+ .login-form-1 .ForgetPwd {
+   color: #0062cc;
+   font-weight: 600;
+   text-decoration: none;
+ }
+
+ input {
+   font-size: 1.2rem;
+   border-radius: 1.3rem;
+   margin-top: 0.9rem;
+   margin-bottom: 0.9rem;
+ }
+
+ .login-form-1 .disabled-btn {
+   background-color: #6194ca;
+   cursor: auto;
+ }
